@@ -1,0 +1,7 @@
+mutation ($input: BoardInput){
+    create(boardInput: $input) {
+        id
+        title
+        content
+    }
+}
